@@ -36,8 +36,8 @@ const lines = [];
 function hostOk() {
     var m = document.getElementById("msgs");
     if (m) {
-        m.innerHTML = "GoldHEN Loaded Press (PS) to EXIT...";
-		m.style.setProperty("color", "yellow");
+    m.innerHTML = "GoldHEN Loaded...";
+	m.style.setProperty("color", "green", "important");
     }
 }
 
