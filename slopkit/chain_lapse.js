@@ -36,7 +36,7 @@ const lines = [];
 function hostOk() {
     var m = document.getElementById("msgs");
     if (m) {
-    m.innerHTML = "GoldHEN Loaded...";
+    m.innerHTML = "GoldHEN v2.4b18.13 loaded!";
 	m.style.setProperty("color", "green", "important");
     }
 }
