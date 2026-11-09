@@ -36,8 +36,8 @@ const params = new URLSearchParams(location.search);
 function hostOk() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML = "GoldHEN Loaded Press (PS) to EXIT...";
-	m.style.setProperty("color", "yellow", "important"); 
+    m.innerHTML = "GoldHEN Loaded...";
+	m.style.setProperty("color", "green", "important");
   }
 }
 
